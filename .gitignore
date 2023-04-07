@@ -76,6 +76,7 @@ Saved/Autosaves/*
 Saved/Config/*
 Saved/Cooked/*
 Saved/Crashes/*
+Saved/Logs/*
 Saved/MaterialStats/*
 Saved/MaterialStatsDebug/*
 Saved/StagedBuilds/*
