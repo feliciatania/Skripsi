@@ -11388,3 +11388,23 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.05.28-16.05.52:203][824]LogSavePackage: Moving '../../../../../../Users/PC/Documents/Unreal Projects/Skripsi/Saved/BP_HandLeftCD9C2DAA47EC5935325F7BAC22FDC8D8.tmp' to '../../../../../../Users/PC/Documents/Unreal Projects/Skripsi/Content/Blueprint/BP_HandLeft.uasset'
 [2023.05.28-16.05.52:226][824]AssetCheck: New page: Asset Save: BP_HandLeft
 [2023.05.28-16.05.52:226][824]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/BP_HandLeft.BP_HandLeft
+[2023.05.28-16.06.33:895][193]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2023.05.28-16.06.33:900][193]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map/BoardGameMap' took 0.043
+[2023.05.28-16.06.33:900][193]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprint/BP_HandRight] ([2] browsable assets)...
+[2023.05.28-16.06.33:914][193]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/BP_HandRight.BP_HandRight]
+[2023.05.28-16.06.33:914][193]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/BP_HandRight]
+[2023.05.28-16.06.33:923][193]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint/BP_HandRight_Auto6
+[2023.05.28-16.06.33:923][193]LogSavePackage: Moving '../../../../../../Users/PC/Documents/Unreal Projects/Skripsi/Saved/BP_HandRight_Auto6456FECA84253F3F2148026A7B0155CCE.tmp' to '../../../../../../Users/PC/Documents/Unreal Projects/Skripsi/Saved/Autosaves/Game/Blueprint/BP_HandRight_Auto6.uasset'
+[2023.05.28-16.06.33:923][193]LogFileHelpers: Auto-saving content packages took 0.023
+[2023.05.28-16.13.27:377][177]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.05.28-16.18.48:125][537]LogTurnkeySupport: Display: Adding device menu item for DESKTOP-FELI
+[2023.05.28-16.19.02:323][278]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/BPC_Hand.BPC_Hand
+[2023.05.28-16.19.02:324][278]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.28-16.19.02:718][279]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.05.28-16.41.46:110][821]BlueprintLog: New page: Compile BPC_Hand
+[2023.05.28-16.41.46:400][821]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.05.28-16.41.47:056][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/BPC_Hand" FILE="../../../../../../Users/PC/Documents/Unreal Projects/Skripsi/Content/Blueprint/BPC_Hand.uasset" SILENT=true
+[2023.05.28-16.41.47:077][884]LogSavePackage: Moving output files for package: /Game/Blueprint/BPC_Hand
+[2023.05.28-16.41.47:077][884]LogSavePackage: Moving '../../../../../../Users/PC/Documents/Unreal Projects/Skripsi/Saved/BPC_HandC23671004F3EFE9E679675BA4CF41AD4.tmp' to '../../../../../../Users/PC/Documents/Unreal Projects/Skripsi/Content/Blueprint/BPC_Hand.uasset'
+[2023.05.28-16.41.47:090][884]AssetCheck: New page: Asset Save: BPC_Hand
+[2023.05.28-16.41.47:090][884]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/BPC_Hand.BPC_Hand
