@@ -9147,3 +9147,724 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.05.28-13.44.31:663][683]LogFileHelpers: No new changes to save!
 [2023.05.28-13.44.31:674][683]AssetCheck: New page: Asset Save: BoardGameMap
 [2023.05.28-13.44.31:674][683]LogContentValidation: Display: Validating World /Game/Map/BoardGameMap.BoardGameMap
+[2023.05.28-13.46.21:288][535]LogDerivedDataCache: C:/Users/PC/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.393 and deleted 0 file(s) with total size 0 MiB.
+[2023.05.28-13.54.31:408][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.05.28-13.54.31:413][ 53]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map/BoardGameMap' took 0.038
+[2023.05.28-13.54.31:413][ 53]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprint/BP_HandRight] ([2] browsable assets)...
+[2023.05.28-13.54.31:425][ 53]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/BP_HandRight.BP_HandRight]
+[2023.05.28-13.54.31:425][ 53]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/BP_HandRight]
+[2023.05.28-13.54.31:433][ 53]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint/BP_HandRight_Auto2
+[2023.05.28-13.54.31:433][ 53]LogSavePackage: Moving '../../../../../../Users/PC/Documents/Unreal Projects/Skripsi/Saved/BP_HandRight_Auto2DE9B6C7543B5CB5D393D91A50A0E6D6D.tmp' to '../../../../../../Users/PC/Documents/Unreal Projects/Skripsi/Saved/Autosaves/Game/Blueprint/BP_HandRight_Auto2.uasset'
+[2023.05.28-13.54.31:434][ 53]LogFileHelpers: Auto-saving content packages took 0.021
+[2023.05.28-14.16.41:329][194]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.05.28-14.16.41:336][194]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.28-14.16.41:336][194]LogHMD: Initializing OVRPlugin session
+[2023.05.28-14.16.41:455][194]LogHMD: Allocating Oculus 3648 x 1840 rendertarget swapchain
+[2023.05.28-14.16.41:455][194]PIE: New page: PIE session: BoardGameMap (May 29, 2023, 4:16:41 AM)
+[2023.05.28-14.16.41:455][194]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_BoardGameMap
+[2023.05.28-14.16.41:479][194]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023531s)
+[2023.05.28-14.16.41:479][194]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/BoardGameMap.BoardGameMap to /Game/Map/UEDPIE_0_BoardGameMap.BoardGameMap (0.023591s)
+[2023.05.28-14.16.41:479][194]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.05.28-14.16.41:479][194]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.28-14.16.41:479][194]LogAIModule: Creating AISystem for world BoardGameMap
+[2023.05.28-14.16.41:480][194]LogPlayLevel: PIE: World Init took: (0.000718s)
+[2023.05.28-14.16.41:511][194]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.05.28-14.16.41:512][194]LogAudio: Display: Creating Audio Device:                 Id: 45, Scope: Unique, Realtime: True
+[2023.05.28-14.16.41:513][194]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.28-14.16.41:513][194]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.28-14.16.41:513][194]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.28-14.16.41:513][194]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.28-14.16.41:513][194]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.28-14.16.41:513][194]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.28-14.16.41:513][194]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.28-14.16.41:513][194]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.28-14.16.41:513][194]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.05.28-14.16.41:513][194]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.05.28-14.16.41:513][194]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.28-14.16.41:515][194]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.28-14.16.41:540][194]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2023.05.28-14.16.41:541][194]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.28-14.16.41:541][194]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.28-14.16.41:541][194]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.28-14.16.41:541][194]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=45
+[2023.05.28-14.16.41:541][194]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=45
+[2023.05.28-14.16.41:545][194]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=45
+[2023.05.28-14.16.41:545][194]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=45
+[2023.05.28-14.16.41:545][194]LogInit: FAudioDevice initialized.
+[2023.05.28-14.16.41:545][194]LogAudio: Display: Audio Device (ID: 45) registered with world 'BoardGameMap'.
+[2023.05.28-14.16.41:556][194]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.28-14.16.41:556][194]LogViewport: Scene viewport resized to 3648x1840, mode Windowed.
+[2023.05.28-14.16.41:585][194]LogLoad: Game class is 'VRGameMode_C'
+[2023.05.28-14.16.41:595][194]LogWorld: Bringing World /Game/Map/UEDPIE_0_BoardGameMap.BoardGameMap up for play (max tick rate 0) at 2023.05.28-21.16.41
+[2023.05.28-14.16.41:595][194]LogWorld: Bringing up level for play took: 0.010193
+[2023.05.28-14.16.41:598][194]LogOnline: OSS: Created online subsystem instance for: :Context_66
+[2023.05.28-14.16.41:600][194]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2023.05.28-14.16.41:600][194]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2023.05.28-14.16.41:600][194]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2023.05.28-14.16.41:600][194]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2023.05.28-14.16.41:600][194]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2023.05.28-14.16.41:600][194]LogNet: GameNetDriver IpNetDriver_17 IpNetDriver listening on port 17777
+[2023.05.28-14.16.41:605][194]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2023.05.28-14.16.41:607][194]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.05.28-14.16.41:613][194]PIE: Server logged in
+[2023.05.28-14.16.41:615][194]PIE: Play in editor total start time 0.278 seconds.
+[2023.05.28-14.16.41:616][194]LogEngine: Changing dynamic resolution state.
+[2023.05.28-14.16.50:177][447]LogViewport: Scene viewport resized to 1920x1080, mode Windowed.
+[2023.05.28-14.16.50:199][447]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.05.28-14.16.50:200][447]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2023.05.28-14.16.50:200][447]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.28-14.16.50:200][447]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_BoardGameMap
+[2023.05.28-14.16.50:233][447]LogHMD: Allocating Oculus 3648 x 1840 depth rendertarget swapchain
+[2023.05.28-14.16.50:233][447]LogSlate: Window 'Skripsi Preview [NetMode: Server]  (64-bit/SM5) OculusHMD OVRPlugin: 1.65.0' being destroyed
+[2023.05.28-14.16.50:265][447]LogWorld: UWorld::CleanupWorld for BoardGameMap, bSessionEnded=true, bCleanupResources=true
+[2023.05.28-14.16.50:266][447]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.28-14.16.50:274][447]LogNet: World NetDriver shutdown IpNetDriver_17 [GameNetDriver]
+[2023.05.28-14.16.50:274][447]LogNet: DestroyNamedNetDriver IpNetDriver_17 [GameNetDriver]
+[2023.05.28-14.16.50:274][447]LogExit: GameNetDriver IpNetDriver_17 shut down
+[2023.05.28-14.16.50:275][447]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.28-14.16.50:279][447]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.28-14.16.50:307][447]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.05.28-14.16.50:307][447]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45
+[2023.05.28-14.16.50:308][447]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45
+[2023.05.28-14.16.50:315][447]LogSlate: Slate User Unregistered.  User Index 8
+[2023.05.28-14.16.50:315][447]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.05.28-14.16.50:316][447]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.05.28-14.16.50:351][448]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2023.05.28-14.16.50:357][448]LogEngine: Changing dynamic resolution state.
+[2023.05.28-14.16.50:903][451]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.05.28-14.16.51:360][452]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.05.28-14.16.51:369][452]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.28-14.16.51:369][452]LogHMD: Initializing OVRPlugin session
+[2023.05.28-14.16.51:530][452]LogHMD: Allocating Oculus 3648 x 1840 rendertarget swapchain
+[2023.05.28-14.16.51:530][452]PIE: New page: PIE session: BoardGameMap (May 29, 2023, 4:16:51 AM)
+[2023.05.28-14.16.51:530][452]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_BoardGameMap
+[2023.05.28-14.16.51:554][452]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023811s)
+[2023.05.28-14.16.51:554][452]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/BoardGameMap.BoardGameMap to /Game/Map/UEDPIE_0_BoardGameMap.BoardGameMap (0.023883s)
+[2023.05.28-14.16.51:554][452]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.05.28-14.16.51:554][452]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.28-14.16.51:554][452]LogAIModule: Creating AISystem for world BoardGameMap
+[2023.05.28-14.16.51:555][452]LogPlayLevel: PIE: World Init took: (0.000723s)
+[2023.05.28-14.16.51:581][452]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.05.28-14.16.51:584][452]LogAudio: Display: Creating Audio Device:                 Id: 46, Scope: Unique, Realtime: True
+[2023.05.28-14.16.51:584][452]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.28-14.16.51:584][452]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.28-14.16.51:584][452]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.28-14.16.51:584][452]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.28-14.16.51:584][452]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.28-14.16.51:584][452]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.28-14.16.51:584][452]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.28-14.16.51:584][452]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.28-14.16.51:585][452]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.05.28-14.16.51:585][452]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.05.28-14.16.51:585][452]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.28-14.16.51:586][452]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.28-14.16.51:604][452]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2023.05.28-14.16.51:605][452]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.28-14.16.51:605][452]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.28-14.16.51:605][452]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.28-14.16.51:605][452]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=46
+[2023.05.28-14.16.51:605][452]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=46
+[2023.05.28-14.16.51:606][452]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=46
+[2023.05.28-14.16.51:606][452]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=46
+[2023.05.28-14.16.51:606][452]LogInit: FAudioDevice initialized.
+[2023.05.28-14.16.51:606][452]LogAudio: Display: Audio Device (ID: 46) registered with world 'BoardGameMap'.
+[2023.05.28-14.16.51:615][452]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.28-14.16.51:615][452]LogViewport: Scene viewport resized to 3648x1840, mode Windowed.
+[2023.05.28-14.16.51:668][452]LogLoad: Game class is 'VRGameMode_C'
+[2023.05.28-14.16.51:681][452]LogWorld: Bringing World /Game/Map/UEDPIE_0_BoardGameMap.BoardGameMap up for play (max tick rate 0) at 2023.05.28-21.16.51
+[2023.05.28-14.16.51:681][452]LogWorld: Bringing up level for play took: 0.013527
+[2023.05.28-14.16.51:683][452]LogOnline: OSS: Created online subsystem instance for: :Context_67
+[2023.05.28-14.16.51:686][452]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2023.05.28-14.16.51:686][452]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2023.05.28-14.16.51:686][452]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2023.05.28-14.16.51:686][452]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2023.05.28-14.16.51:686][452]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2023.05.28-14.16.51:686][452]LogNet: GameNetDriver IpNetDriver_18 IpNetDriver listening on port 17777
+[2023.05.28-14.16.51:692][452]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2023.05.28-14.16.51:693][452]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.05.28-14.16.51:700][452]PIE: Server logged in
+[2023.05.28-14.16.51:701][452]PIE: Play in editor total start time 0.332 seconds.
+[2023.05.28-14.16.51:702][452]LogEngine: Changing dynamic resolution state.
+[2023.05.28-14.16.51:714][452]LogHMD: Allocating Oculus 3648 x 1840 depth rendertarget swapchain
+[2023.05.28-14.16.51:714][452]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.05.28-14.16.55:502][590]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: BERHASIL GRAB 1 PERMATA
+[2023.05.28-14.16.55:503][590]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 0.860953
+[2023.05.28-14.16.55:503][590]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.548942
+[2023.05.28-14.16.55:503][590]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 0.704947
+[2023.05.28-14.16.55:503][590]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :1.409895
+[2023.05.28-14.16.55:527][591]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2023.05.28-14.16.55:527][591]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Release
+[2023.05.28-14.16.55:527][591]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 1.240573
+[2023.05.28-14.16.55:527][591]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.614063
+[2023.05.28-14.16.55:527][591]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 0.927318
+[2023.05.28-14.16.55:527][591]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :1.854636
+[2023.05.28-14.16.55:603][593]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: BERHASIL GRAB 1 PERMATA
+[2023.05.28-14.16.55:603][593]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 0.808686
+[2023.05.28-14.16.55:603][593]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.525894
+[2023.05.28-14.16.55:603][593]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 0.66729
+[2023.05.28-14.16.55:603][593]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :1.33458
+[2023.05.28-14.16.56:140][613]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Release
+[2023.05.28-14.16.56:140][613]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 1.207544
+[2023.05.28-14.16.56:140][613]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 1.034464
+[2023.05.28-14.16.56:140][613]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 1.121004
+[2023.05.28-14.16.56:140][613]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :2.242008
+[2023.05.28-14.16.57:683][668]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: BERHASIL GRAB 1 PERMATA
+[2023.05.28-14.16.57:683][668]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 0.885343
+[2023.05.28-14.16.57:683][668]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.103291
+[2023.05.28-14.16.57:683][668]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 0.494317
+[2023.05.28-14.16.57:683][668]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :0.988633
+[2023.05.28-14.16.58:994][715]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Release
+[2023.05.28-14.16.58:994][715]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 1.16299
+[2023.05.28-14.16.58:994][715]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.92373
+[2023.05.28-14.16.58:994][715]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 1.04336
+[2023.05.28-14.16.58:994][715]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :2.086721
+[2023.05.28-14.17.00:607][773]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: BERHASIL GRAB 1 PERMATA
+[2023.05.28-14.17.00:607][773]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 0.90181
+[2023.05.28-14.17.00:607][773]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.433053
+[2023.05.28-14.17.00:607][773]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 0.667431
+[2023.05.28-14.17.00:607][773]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :1.334863
+[2023.05.28-14.17.01:861][818]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Release
+[2023.05.28-14.17.01:861][818]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 1.422817
+[2023.05.28-14.17.01:861][818]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.311698
+[2023.05.28-14.17.01:861][818]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 0.867257
+[2023.05.28-14.17.01:861][818]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :1.734515
+[2023.05.28-14.17.04:591][916]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: BERHASIL GRAB 1 PERMATA
+[2023.05.28-14.17.04:591][916]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 0.914009
+[2023.05.28-14.17.04:591][916]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.393262
+[2023.05.28-14.17.04:591][916]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 0.653635
+[2023.05.28-14.17.04:591][916]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :1.307271
+[2023.05.28-14.17.05:987][966]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Release
+[2023.05.28-14.17.05:987][966]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 1.380418
+[2023.05.28-14.17.05:987][966]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.554547
+[2023.05.28-14.17.05:988][966]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 0.967483
+[2023.05.28-14.17.05:988][966]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :1.934965
+[2023.05.28-14.17.06:015][967]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: BERHASIL GRAB 1 PERMATA
+[2023.05.28-14.17.06:015][967]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 0.88932
+[2023.05.28-14.17.06:015][967]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.782703
+[2023.05.28-14.17.06:015][967]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 0.836012
+[2023.05.28-14.17.06:015][967]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :1.672023
+[2023.05.28-14.17.06:043][968]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Release
+[2023.05.28-14.17.06:043][968]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 1.005545
+[2023.05.28-14.17.06:043][968]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 1.138735
+[2023.05.28-14.17.06:043][968]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 1.07214
+[2023.05.28-14.17.06:043][968]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :2.14428
+[2023.05.28-14.17.08:997][ 74]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: BERHASIL GRAB 2 PERMATA
+[2023.05.28-14.17.08:997][ 74]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 1.166171
+[2023.05.28-14.17.08:997][ 74]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.707446
+[2023.05.28-14.17.08:997][ 74]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Tengah : 0.78535
+[2023.05.28-14.17.08:997][ 74]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 0.956285
+[2023.05.28-14.17.08:997][ 74]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :2.658967
+[2023.05.28-14.17.10:334][122]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Release
+[2023.05.28-14.17.10:334][122]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 1.66075
+[2023.05.28-14.17.10:334][122]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.471693
+[2023.05.28-14.17.10:334][122]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Tengah : 0.553409
+[2023.05.28-14.17.10:334][122]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 1.08665
+[2023.05.28-14.17.10:334][122]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :2.685852
+[2023.05.28-14.17.12:338][194]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Release
+[2023.05.28-14.17.12:338][194]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 1.822785
+[2023.05.28-14.17.12:338][194]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.612057
+[2023.05.28-14.17.12:338][194]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Tengah : 0.894324
+[2023.05.28-14.17.12:338][194]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 1.287988
+[2023.05.28-14.17.12:338][194]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :3.329166
+[2023.05.28-14.17.12:560][202]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: BERHASIL GRAB 2 PERMATA
+[2023.05.28-14.17.12:560][202]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 0.829826
+[2023.05.28-14.17.12:560][202]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.30735
+[2023.05.28-14.17.12:560][202]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Tengah : 0.810495
+[2023.05.28-14.17.12:560][202]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 0.694374
+[2023.05.28-14.17.12:560][202]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :1.947671
+[2023.05.28-14.17.14:095][257]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Release
+[2023.05.28-14.17.14:095][257]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 1.615821
+[2023.05.28-14.17.14:095][257]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.691427
+[2023.05.28-14.17.14:095][257]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Tengah : 0.613247
+[2023.05.28-14.17.14:095][257]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 1.134079
+[2023.05.28-14.17.14:095][257]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :2.920495
+[2023.05.28-14.17.14:122][258]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Release
+[2023.05.28-14.17.14:122][258]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 1.647872
+[2023.05.28-14.17.14:122][258]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.864301
+[2023.05.28-14.17.14:122][258]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Tengah : 0.752557
+[2023.05.28-14.17.14:122][258]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 1.228151
+[2023.05.28-14.17.14:122][258]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :3.264731
+[2023.05.28-14.17.22:585][560]LogViewport: Scene viewport resized to 1920x1080, mode Windowed.
+[2023.05.28-14.17.22:612][560]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2023.05.28-14.17.22:612][560]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.28-14.17.22:612][560]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_BoardGameMap
+[2023.05.28-14.17.22:651][560]LogSlate: Window 'Skripsi Preview [NetMode: Server]  (64-bit/SM5) OculusHMD OVRPlugin: 1.65.0' being destroyed
+[2023.05.28-14.17.22:695][560]LogWorld: UWorld::CleanupWorld for BoardGameMap, bSessionEnded=true, bCleanupResources=true
+[2023.05.28-14.17.22:696][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.28-14.17.22:703][560]LogNet: World NetDriver shutdown IpNetDriver_18 [GameNetDriver]
+[2023.05.28-14.17.22:703][560]LogNet: DestroyNamedNetDriver IpNetDriver_18 [GameNetDriver]
+[2023.05.28-14.17.22:703][560]LogExit: GameNetDriver IpNetDriver_18 shut down
+[2023.05.28-14.17.22:704][560]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.28-14.17.22:708][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.28-14.17.22:732][560]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.28-14.17.22:732][560]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.05.28-14.17.22:732][560]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=46
+[2023.05.28-14.17.22:734][560]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=46
+[2023.05.28-14.17.22:741][560]LogSlate: Slate User Unregistered.  User Index 8
+[2023.05.28-14.17.22:741][560]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.05.28-14.17.22:742][560]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.05.28-14.17.22:771][561]LogPlayLevel: Display: Destroying online subsystem :Context_67
+[2023.05.28-14.17.22:778][561]LogEngine: Changing dynamic resolution state.
+[2023.05.28-14.46.21:039][551]LogDerivedDataCache: C:/Users/PC/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.396 and deleted 0 file(s) with total size 0 MiB.
+[2023.05.28-15.19.17:395][452]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.05.28-15.19.17:405][452]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.28-15.19.17:405][452]LogHMD: Initializing OVRPlugin session
+[2023.05.28-15.19.17:549][452]LogHMD: Allocating Oculus 3648 x 1840 rendertarget swapchain
+[2023.05.28-15.19.17:550][452]PIE: New page: PIE session: BoardGameMap (May 29, 2023, 5:19:17 AM)
+[2023.05.28-15.19.17:551][452]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_BoardGameMap
+[2023.05.28-15.19.17:571][452]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021226s)
+[2023.05.28-15.19.17:571][452]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/BoardGameMap.BoardGameMap to /Game/Map/UEDPIE_0_BoardGameMap.BoardGameMap (0.021303s)
+[2023.05.28-15.19.17:571][452]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.05.28-15.19.17:572][452]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.28-15.19.17:572][452]LogAIModule: Creating AISystem for world BoardGameMap
+[2023.05.28-15.19.17:573][452]LogPlayLevel: PIE: World Init took: (0.000901s)
+[2023.05.28-15.19.17:603][452]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2023.05.28-15.19.17:606][452]LogAudio: Display: Creating Audio Device:                 Id: 47, Scope: Unique, Realtime: True
+[2023.05.28-15.19.17:607][452]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.28-15.19.17:607][452]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.28-15.19.17:607][452]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.28-15.19.17:607][452]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.28-15.19.17:607][452]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.28-15.19.17:607][452]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.28-15.19.17:607][452]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.28-15.19.17:607][452]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.28-15.19.17:607][452]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.05.28-15.19.17:607][452]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.05.28-15.19.17:607][452]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.28-15.19.17:609][452]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.28-15.19.17:625][452]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2023.05.28-15.19.17:625][452]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.28-15.19.17:626][452]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.28-15.19.17:626][452]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.28-15.19.17:626][452]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=47
+[2023.05.28-15.19.17:626][452]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=47
+[2023.05.28-15.19.17:627][452]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=47
+[2023.05.28-15.19.17:627][452]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=47
+[2023.05.28-15.19.17:627][452]LogInit: FAudioDevice initialized.
+[2023.05.28-15.19.17:627][452]LogAudio: Display: Audio Device (ID: 47) registered with world 'BoardGameMap'.
+[2023.05.28-15.19.17:637][452]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.28-15.19.17:637][452]LogViewport: Scene viewport resized to 3648x1840, mode Windowed.
+[2023.05.28-15.19.17:687][452]LogLoad: Game class is 'VRGameMode_C'
+[2023.05.28-15.19.17:698][452]LogWorld: Bringing World /Game/Map/UEDPIE_0_BoardGameMap.BoardGameMap up for play (max tick rate 0) at 2023.05.28-22.19.17
+[2023.05.28-15.19.17:698][452]LogWorld: Bringing up level for play took: 0.012083
+[2023.05.28-15.19.17:700][452]LogOnline: OSS: Created online subsystem instance for: :Context_68
+[2023.05.28-15.19.17:703][452]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2023.05.28-15.19.17:703][452]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2023.05.28-15.19.17:703][452]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2023.05.28-15.19.17:703][452]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2023.05.28-15.19.17:703][452]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2023.05.28-15.19.17:703][452]LogNet: GameNetDriver IpNetDriver_19 IpNetDriver listening on port 17777
+[2023.05.28-15.19.17:709][452]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2023.05.28-15.19.17:710][452]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.05.28-15.19.17:716][452]PIE: Server logged in
+[2023.05.28-15.19.17:717][452]PIE: Play in editor total start time 0.312 seconds.
+[2023.05.28-15.19.17:718][452]LogEngine: Changing dynamic resolution state.
+[2023.05.28-15.19.17:731][452]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.05.28-15.19.17:734][452]LogHMD: Allocating Oculus 3648 x 1840 depth rendertarget swapchain
+[2023.05.28-15.19.20:467][523]LogBlueprintUserMessages: [BP_HandPawn_C_0] Server: Hand Left Scale :0.869891
+[2023.05.28-15.19.20:467][523]LogBlueprintUserMessages: [BP_HandPawn_C_0] Server: Hand Right Scale :0.869891
+[2023.05.28-15.19.20:496][525]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2023.05.28-15.19.20:915][537]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: BERHASIL GRAB 1 PERMATA
+[2023.05.28-15.19.20:915][537]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 0.891624
+[2023.05.28-15.19.20:915][537]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.657409
+[2023.05.28-15.19.20:915][537]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 0.774516
+[2023.05.28-15.19.20:915][537]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :1.549033
+[2023.05.28-15.19.20:939][538]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Release
+[2023.05.28-15.19.20:939][538]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 1.253388
+[2023.05.28-15.19.20:939][538]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.702774
+[2023.05.28-15.19.20:939][538]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 0.978081
+[2023.05.28-15.19.20:939][538]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :1.956163
+[2023.05.28-15.19.20:989][540]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: BERHASIL GRAB 1 PERMATA
+[2023.05.28-15.19.20:989][540]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 0.903975
+[2023.05.28-15.19.20:989][540]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.448219
+[2023.05.28-15.19.20:989][540]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 0.676097
+[2023.05.28-15.19.20:989][540]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :1.352194
+[2023.05.28-15.19.22:040][573]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Release
+[2023.05.28-15.19.22:040][573]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 1.302303
+[2023.05.28-15.19.22:040][573]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 1.183171
+[2023.05.28-15.19.22:040][573]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 1.242737
+[2023.05.28-15.19.22:040][573]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :2.485474
+[2023.05.28-15.19.23:829][632]LogViewport: Scene viewport resized to 1920x1080, mode Windowed.
+[2023.05.28-15.19.23:856][632]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2023.05.28-15.19.23:856][632]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.28-15.19.23:856][632]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_BoardGameMap
+[2023.05.28-15.19.23:905][632]LogSlate: Window 'Skripsi Preview [NetMode: Server]  (64-bit/SM5) OculusHMD OVRPlugin: 1.65.0' being destroyed
+[2023.05.28-15.19.23:939][632]LogWorld: UWorld::CleanupWorld for BoardGameMap, bSessionEnded=true, bCleanupResources=true
+[2023.05.28-15.19.23:941][632]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.28-15.19.23:950][632]LogNet: World NetDriver shutdown IpNetDriver_19 [GameNetDriver]
+[2023.05.28-15.19.23:950][632]LogNet: DestroyNamedNetDriver IpNetDriver_19 [GameNetDriver]
+[2023.05.28-15.19.23:950][632]LogExit: GameNetDriver IpNetDriver_19 shut down
+[2023.05.28-15.19.23:951][632]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.28-15.19.23:954][632]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.28-15.19.23:982][632]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.28-15.19.23:982][632]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.05.28-15.19.23:982][632]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=47
+[2023.05.28-15.19.23:983][632]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=47
+[2023.05.28-15.19.23:992][632]LogSlate: Slate User Unregistered.  User Index 8
+[2023.05.28-15.19.23:992][632]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.05.28-15.19.23:993][632]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.05.28-15.19.24:034][633]LogPlayLevel: Display: Destroying online subsystem :Context_68
+[2023.05.28-15.19.24:041][633]LogEngine: Changing dynamic resolution state.
+[2023.05.28-15.19.24:585][636]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.05.28-15.20.52:224][845]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2023.05.28-15.20.52:228][845]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map/BoardGameMap' took 0.034
+[2023.05.28-15.20.52:233][845]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprint/BP_HandLeft] ([2] browsable assets)...
+[2023.05.28-15.20.52:250][845]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/BP_HandLeft.BP_HandLeft]
+[2023.05.28-15.20.52:250][845]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/BP_HandLeft]
+[2023.05.28-15.20.52:637][845]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint/BP_HandLeft_Auto3
+[2023.05.28-15.20.52:639][845]LogSavePackage: Moving '../../../../../../Users/PC/Documents/Unreal Projects/Skripsi/Saved/BP_HandLeft_Auto3DC315ABA4909495460D3F8B95CDB138D.tmp' to '../../../../../../Users/PC/Documents/Unreal Projects/Skripsi/Saved/Autosaves/Game/Blueprint/BP_HandLeft_Auto3.uasset'
+[2023.05.28-15.20.52:640][845]LogFileHelpers: Auto-saving content packages took 0.412
+[2023.05.28-15.20.54:825][994]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.05.28-15.20.54:833][994]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.05.28-15.20.54:844][994]LogPlayLevel: [PlayLevel] Compiling BP_HandLeft before play...
+[2023.05.28-15.20.54:846][994]LogPlayLevel: [PlayLevel]   Compiling BP_HandRight as a dependent...
+[2023.05.28-15.20.55:416][994]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2023.05.28-15.20.55:436][994]LogPlayLevel: PlayLevel: Blueprint regeneration took 603 ms (2 blueprints)
+[2023.05.28-15.20.55:436][994]LogHMD: Initializing OVRPlugin session
+[2023.05.28-15.20.55:578][994]LogHMD: Allocating Oculus 3648 x 1840 rendertarget swapchain
+[2023.05.28-15.20.55:578][994]PIE: New page: PIE session: BoardGameMap (May 29, 2023, 5:20:55 AM)
+[2023.05.28-15.20.55:579][994]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_BoardGameMap
+[2023.05.28-15.20.55:599][994]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019485s)
+[2023.05.28-15.20.55:599][994]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/BoardGameMap.BoardGameMap to /Game/Map/UEDPIE_0_BoardGameMap.BoardGameMap (0.019547s)
+[2023.05.28-15.20.55:599][994]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.05.28-15.20.55:599][994]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.28-15.20.55:599][994]LogAIModule: Creating AISystem for world BoardGameMap
+[2023.05.28-15.20.55:600][994]LogPlayLevel: PIE: World Init took: (0.000607s)
+[2023.05.28-15.20.55:627][994]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.05.28-15.20.55:628][994]LogAudio: Display: Creating Audio Device:                 Id: 48, Scope: Unique, Realtime: True
+[2023.05.28-15.20.55:629][994]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.28-15.20.55:629][994]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.28-15.20.55:629][994]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.28-15.20.55:629][994]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.28-15.20.55:629][994]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.28-15.20.55:629][994]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.28-15.20.55:629][994]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.28-15.20.55:629][994]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.28-15.20.55:629][994]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.05.28-15.20.55:629][994]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.05.28-15.20.55:629][994]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.28-15.20.55:630][994]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.28-15.20.55:646][994]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2023.05.28-15.20.55:646][994]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.28-15.20.55:646][994]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.28-15.20.55:647][994]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.28-15.20.55:648][994]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=48
+[2023.05.28-15.20.55:648][994]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=48
+[2023.05.28-15.20.55:648][994]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=48
+[2023.05.28-15.20.55:648][994]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=48
+[2023.05.28-15.20.55:648][994]LogInit: FAudioDevice initialized.
+[2023.05.28-15.20.55:648][994]LogAudio: Display: Audio Device (ID: 48) registered with world 'BoardGameMap'.
+[2023.05.28-15.20.55:660][994]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.28-15.20.55:669][994]LogViewport: Scene viewport resized to 3648x1840, mode Windowed.
+[2023.05.28-15.20.55:714][994]LogLoad: Game class is 'VRGameMode_C'
+[2023.05.28-15.20.55:726][994]LogWorld: Bringing World /Game/Map/UEDPIE_0_BoardGameMap.BoardGameMap up for play (max tick rate 0) at 2023.05.28-22.20.55
+[2023.05.28-15.20.55:726][994]LogWorld: Bringing up level for play took: 0.011828
+[2023.05.28-15.20.55:728][994]LogOnline: OSS: Created online subsystem instance for: :Context_69
+[2023.05.28-15.20.55:730][994]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2023.05.28-15.20.55:730][994]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2023.05.28-15.20.55:730][994]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2023.05.28-15.20.55:730][994]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2023.05.28-15.20.55:730][994]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2023.05.28-15.20.55:731][994]LogNet: GameNetDriver IpNetDriver_20 IpNetDriver listening on port 17777
+[2023.05.28-15.20.55:736][994]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2023.05.28-15.20.55:737][994]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.05.28-15.20.55:742][994]PIE: Server logged in
+[2023.05.28-15.20.55:744][994]PIE: Play in editor total start time 0.911 seconds.
+[2023.05.28-15.20.55:744][994]LogEngine: Changing dynamic resolution state.
+[2023.05.28-15.20.55:755][994]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.05.28-15.20.55:759][994]LogHMD: Allocating Oculus 3648 x 1840 depth rendertarget swapchain
+[2023.05.28-15.20.57:937][ 24]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.05.28-15.20.59:522][ 31]LogBlueprintUserMessages: [BP_HandPawn_C_0] Server: Hand Left Scale :0.84388
+[2023.05.28-15.20.59:522][ 31]LogBlueprintUserMessages: [BP_HandPawn_C_0] Server: Hand Right Scale :0.84388
+[2023.05.28-15.20.59:716][ 33]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2023.05.28-15.21.03:376][ 66]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: BERHASIL GRAB 1 PERMATA
+[2023.05.28-15.21.03:376][ 66]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 0.830051
+[2023.05.28-15.21.03:376][ 66]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.897461
+[2023.05.28-15.21.03:376][ 66]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 0.863756
+[2023.05.28-15.21.03:376][ 66]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :1.727512
+[2023.05.28-15.21.03:401][ 67]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Release
+[2023.05.28-15.21.03:401][ 67]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 0.999109
+[2023.05.28-15.21.03:401][ 67]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 1.172703
+[2023.05.28-15.21.03:401][ 67]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 1.085906
+[2023.05.28-15.21.03:401][ 67]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :2.171812
+[2023.05.28-15.21.03:512][ 71]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: BERHASIL GRAB 1 PERMATA
+[2023.05.28-15.21.03:512][ 71]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 0.568269
+[2023.05.28-15.21.03:512][ 71]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.521871
+[2023.05.28-15.21.03:512][ 71]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 0.54507
+[2023.05.28-15.21.03:512][ 71]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :1.09014
+[2023.05.28-15.21.04:793][113]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Release
+[2023.05.28-15.21.04:793][113]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 1.051021
+[2023.05.28-15.21.04:793][113]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 1.333413
+[2023.05.28-15.21.04:793][113]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 1.192217
+[2023.05.28-15.21.04:793][113]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :2.384434
+[2023.05.28-15.21.10:879][332]LogViewport: Scene viewport resized to 1920x1080, mode Windowed.
+[2023.05.28-15.21.10:905][332]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2023.05.28-15.21.10:905][332]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.28-15.21.10:905][332]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_BoardGameMap
+[2023.05.28-15.21.10:905][332]LogSlate: Window 'Skripsi Preview [NetMode: Server]  (64-bit/SM5) OculusHMD OVRPlugin: 1.65.0' being destroyed
+[2023.05.28-15.21.10:939][332]LogWorld: UWorld::CleanupWorld for BoardGameMap, bSessionEnded=true, bCleanupResources=true
+[2023.05.28-15.21.10:941][332]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.28-15.21.10:952][332]LogNet: World NetDriver shutdown IpNetDriver_20 [GameNetDriver]
+[2023.05.28-15.21.10:952][332]LogNet: DestroyNamedNetDriver IpNetDriver_20 [GameNetDriver]
+[2023.05.28-15.21.10:952][332]LogExit: GameNetDriver IpNetDriver_20 shut down
+[2023.05.28-15.21.10:952][332]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.28-15.21.10:956][332]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.28-15.21.10:982][332]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.05.28-15.21.10:982][332]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=48
+[2023.05.28-15.21.10:982][332]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=48
+[2023.05.28-15.21.10:989][332]LogSlate: Slate User Unregistered.  User Index 8
+[2023.05.28-15.21.10:989][332]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.05.28-15.21.10:991][332]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2023.05.28-15.21.11:026][333]LogPlayLevel: Display: Destroying online subsystem :Context_69
+[2023.05.28-15.21.11:033][333]LogEngine: Changing dynamic resolution state.
+[2023.05.28-15.21.15:183][787]LogViewport: Scene viewport resized to 1178x537, mode Windowed.
+[2023.05.28-15.21.17:101][  7]LogViewport: Scene viewport resized to 1306x575, mode Windowed.
+[2023.05.28-15.21.37:274][312]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.05.28-15.21.37:282][312]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.28-15.21.37:282][312]LogHMD: Initializing OVRPlugin session
+[2023.05.28-15.21.37:431][312]LogHMD: Allocating Oculus 3648 x 1840 rendertarget swapchain
+[2023.05.28-15.21.37:431][312]PIE: New page: PIE session: BoardGameMap (May 29, 2023, 5:21:37 AM)
+[2023.05.28-15.21.37:432][312]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_BoardGameMap
+[2023.05.28-15.21.37:450][312]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019115s)
+[2023.05.28-15.21.37:450][312]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/BoardGameMap.BoardGameMap to /Game/Map/UEDPIE_0_BoardGameMap.BoardGameMap (0.019178s)
+[2023.05.28-15.21.37:450][312]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.05.28-15.21.37:450][312]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.28-15.21.37:450][312]LogAIModule: Creating AISystem for world BoardGameMap
+[2023.05.28-15.21.37:451][312]LogPlayLevel: PIE: World Init took: (0.000738s)
+[2023.05.28-15.21.37:478][312]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.05.28-15.21.37:481][312]LogAudio: Display: Creating Audio Device:                 Id: 49, Scope: Unique, Realtime: True
+[2023.05.28-15.21.37:481][312]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.28-15.21.37:481][312]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.28-15.21.37:481][312]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.28-15.21.37:481][312]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.28-15.21.37:481][312]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.28-15.21.37:481][312]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.28-15.21.37:481][312]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.28-15.21.37:481][312]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.28-15.21.37:481][312]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.05.28-15.21.37:481][312]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.05.28-15.21.37:482][312]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.28-15.21.37:482][312]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.28-15.21.37:501][312]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2023.05.28-15.21.37:501][312]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.28-15.21.37:502][312]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.28-15.21.37:502][312]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.28-15.21.37:502][312]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=49
+[2023.05.28-15.21.37:502][312]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=49
+[2023.05.28-15.21.37:503][312]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=49
+[2023.05.28-15.21.37:503][312]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=49
+[2023.05.28-15.21.37:503][312]LogInit: FAudioDevice initialized.
+[2023.05.28-15.21.37:503][312]LogAudio: Display: Audio Device (ID: 49) registered with world 'BoardGameMap'.
+[2023.05.28-15.21.37:514][312]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.28-15.21.37:514][312]LogViewport: Scene viewport resized to 3648x1840, mode Windowed.
+[2023.05.28-15.21.37:562][312]LogLoad: Game class is 'VRGameMode_C'
+[2023.05.28-15.21.37:574][312]LogWorld: Bringing World /Game/Map/UEDPIE_0_BoardGameMap.BoardGameMap up for play (max tick rate 0) at 2023.05.28-22.21.37
+[2023.05.28-15.21.37:574][312]LogWorld: Bringing up level for play took: 0.011351
+[2023.05.28-15.21.37:575][312]LogOnline: OSS: Created online subsystem instance for: :Context_70
+[2023.05.28-15.21.37:578][312]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2023.05.28-15.21.37:578][312]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2023.05.28-15.21.37:578][312]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2023.05.28-15.21.37:578][312]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2023.05.28-15.21.37:578][312]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2023.05.28-15.21.37:578][312]LogNet: GameNetDriver IpNetDriver_21 IpNetDriver listening on port 17777
+[2023.05.28-15.21.37:582][312]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2023.05.28-15.21.37:583][312]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.05.28-15.21.37:589][312]PIE: Server logged in
+[2023.05.28-15.21.37:590][312]PIE: Play in editor total start time 0.308 seconds.
+[2023.05.28-15.21.37:591][312]LogEngine: Changing dynamic resolution state.
+[2023.05.28-15.21.37:602][312]LogHMD: Allocating Oculus 3648 x 1840 depth rendertarget swapchain
+[2023.05.28-15.21.37:602][312]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.05.28-15.21.44:477][644]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: BERHASIL GRAB 1 PERMATA
+[2023.05.28-15.21.44:477][644]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 0.793893
+[2023.05.28-15.21.44:477][644]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.344749
+[2023.05.28-15.21.44:477][644]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 0.569321
+[2023.05.28-15.21.44:477][644]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :1.138642
+[2023.05.28-15.21.44:509][646]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2023.05.28-15.21.45:320][672]LogBlueprintUserMessages: [BP_HandPawn_C_0] Server: Hand Left Scale :0.882279
+[2023.05.28-15.21.45:320][672]LogBlueprintUserMessages: [BP_HandPawn_C_0] Server: Hand Right Scale :0.882279
+[2023.05.28-15.21.46:809][721]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Release
+[2023.05.28-15.21.46:809][721]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 0.593274
+[2023.05.28-15.21.46:809][721]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 1.188348
+[2023.05.28-15.21.46:809][721]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 0.890811
+[2023.05.28-15.21.46:809][721]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :1.781622
+[2023.05.28-15.21.48:433][773]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: BERHASIL GRAB 1 PERMATA
+[2023.05.28-15.21.48:433][773]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 0.808674
+[2023.05.28-15.21.48:433][773]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.228157
+[2023.05.28-15.21.48:433][773]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 0.518415
+[2023.05.28-15.21.48:433][773]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :1.036831
+[2023.05.28-15.21.48:665][781]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Release
+[2023.05.28-15.21.48:665][781]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 1.185657
+[2023.05.28-15.21.48:665][781]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.650745
+[2023.05.28-15.21.48:665][781]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 0.918201
+[2023.05.28-15.21.48:665][781]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :1.836402
+[2023.05.28-15.21.48:715][782]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: BERHASIL GRAB 1 PERMATA
+[2023.05.28-15.21.48:715][782]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 0.344236
+[2023.05.28-15.21.48:715][782]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.574793
+[2023.05.28-15.21.48:715][782]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 0.459514
+[2023.05.28-15.21.48:715][782]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :0.919028
+[2023.05.28-15.21.49:573][810]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Release
+[2023.05.28-15.21.49:573][810]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 1.262233
+[2023.05.28-15.21.49:573][810]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 1.964612
+[2023.05.28-15.21.49:573][810]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 1.613422
+[2023.05.28-15.21.49:573][810]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :3.226844
+[2023.05.28-15.21.51:135][858]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: BERHASIL GRAB 1 PERMATA
+[2023.05.28-15.21.51:135][858]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 0.567021
+[2023.05.28-15.21.51:136][858]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.580856
+[2023.05.28-15.21.51:136][858]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 0.573939
+[2023.05.28-15.21.51:136][858]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :1.147878
+[2023.05.28-15.21.52:038][887]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Release
+[2023.05.28-15.21.52:038][887]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 1.171584
+[2023.05.28-15.21.52:038][887]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.722076
+[2023.05.28-15.21.52:038][887]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 0.94683
+[2023.05.28-15.21.52:038][887]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :1.893661
+[2023.05.28-15.21.53:655][938]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: BERHASIL GRAB 1 PERMATA
+[2023.05.28-15.21.53:655][938]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 0.92228
+[2023.05.28-15.21.53:655][938]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.523361
+[2023.05.28-15.21.53:655][938]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 0.72282
+[2023.05.28-15.21.53:655][938]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :1.445641
+[2023.05.28-15.21.53:683][939]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Release
+[2023.05.28-15.21.53:683][939]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 1.149947
+[2023.05.28-15.21.53:683][939]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.590828
+[2023.05.28-15.21.53:683][939]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 0.870388
+[2023.05.28-15.21.53:683][939]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :1.740776
+[2023.05.28-15.21.53:765][942]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: BERHASIL GRAB 1 PERMATA
+[2023.05.28-15.21.53:765][942]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 0.737444
+[2023.05.28-15.21.53:765][942]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.534521
+[2023.05.28-15.21.53:765][942]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 0.635983
+[2023.05.28-15.21.53:765][942]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :1.271965
+[2023.05.28-15.21.54:858][977]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Release
+[2023.05.28-15.21.54:858][977]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 1.177707
+[2023.05.28-15.21.54:858][977]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 1.287934
+[2023.05.28-15.21.54:858][977]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 1.23282
+[2023.05.28-15.21.54:859][977]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :2.46564
+[2023.05.28-15.21.56:405][ 27]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: BERHASIL GRAB 1 PERMATA
+[2023.05.28-15.21.56:405][ 27]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 0.623311
+[2023.05.28-15.21.56:405][ 27]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.477492
+[2023.05.28-15.21.56:405][ 27]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 0.550401
+[2023.05.28-15.21.56:405][ 27]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :1.100803
+[2023.05.28-15.21.57:827][ 74]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Release
+[2023.05.28-15.21.57:828][ 74]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 0.995962
+[2023.05.28-15.21.57:828][ 74]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 1.273507
+[2023.05.28-15.21.57:828][ 74]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 1.134734
+[2023.05.28-15.21.57:828][ 74]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :2.269469
+[2023.05.28-15.21.59:980][145]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: BERHASIL GRAB 1 PERMATA
+[2023.05.28-15.21.59:980][145]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 0.525641
+[2023.05.28-15.21.59:980][145]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.584736
+[2023.05.28-15.21.59:980][145]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 0.555188
+[2023.05.28-15.21.59:980][145]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :1.110377
+[2023.05.28-15.22.01:719][202]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Release
+[2023.05.28-15.22.01:719][202]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 1.061824
+[2023.05.28-15.22.01:719][202]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 1.225456
+[2023.05.28-15.22.01:719][202]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 1.14364
+[2023.05.28-15.22.01:719][202]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :2.28728
+[2023.05.28-15.22.03:585][264]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: BERHASIL GRAB 1 PERMATA
+[2023.05.28-15.22.03:585][264]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 0.629059
+[2023.05.28-15.22.03:585][264]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.562675
+[2023.05.28-15.22.03:585][264]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 0.595867
+[2023.05.28-15.22.03:585][264]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :1.191734
+[2023.05.28-15.22.05:224][319]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Release
+[2023.05.28-15.22.05:224][319]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 2.027296
+[2023.05.28-15.22.05:224][319]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 2.026936
+[2023.05.28-15.22.05:224][319]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 2.027116
+[2023.05.28-15.22.05:224][319]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :4.054233
+[2023.05.28-15.22.06:861][374]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: BERHASIL GRAB 1 PERMATA
+[2023.05.28-15.22.06:861][374]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 0.944994
+[2023.05.28-15.22.06:861][374]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.217171
+[2023.05.28-15.22.06:861][374]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 0.581082
+[2023.05.28-15.22.06:861][374]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :1.162165
+[2023.05.28-15.22.07:633][398]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Release
+[2023.05.28-15.22.07:633][398]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 1.174168
+[2023.05.28-15.22.07:633][398]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.319331
+[2023.05.28-15.22.07:633][398]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 0.74675
+[2023.05.28-15.22.07:633][398]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :1.493499
+[2023.05.28-15.22.09:879][474]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: BERHASIL GRAB 1 PERMATA
+[2023.05.28-15.22.09:879][474]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 0.832777
+[2023.05.28-15.22.09:879][474]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.795322
+[2023.05.28-15.22.09:879][474]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 0.814049
+[2023.05.28-15.22.09:879][474]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :1.628098
+[2023.05.28-15.22.11:288][521]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Release
+[2023.05.28-15.22.11:288][521]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 1.577316
+[2023.05.28-15.22.11:288][521]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.18754
+[2023.05.28-15.22.11:288][521]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 0.882428
+[2023.05.28-15.22.11:288][521]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :1.764856
+[2023.05.28-15.22.13:186][584]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: BERHASIL GRAB 1 PERMATA
+[2023.05.28-15.22.13:186][584]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 0.930744
+[2023.05.28-15.22.13:186][584]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.674526
+[2023.05.28-15.22.13:186][584]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 0.802635
+[2023.05.28-15.22.13:186][584]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :1.605269
+[2023.05.28-15.22.13:875][607]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Release
+[2023.05.28-15.22.13:875][607]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 1.1747
+[2023.05.28-15.22.13:875][607]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.574512
+[2023.05.28-15.22.13:875][607]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 0.874606
+[2023.05.28-15.22.13:875][607]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :1.749212
+[2023.05.28-15.22.15:671][666]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: BERHASIL GRAB 1 PERMATA
+[2023.05.28-15.22.15:671][666]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 0.886732
+[2023.05.28-15.22.15:671][666]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 0.835269
+[2023.05.28-15.22.15:671][666]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 0.861
+[2023.05.28-15.22.15:671][666]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :1.722
+[2023.05.28-15.22.16:785][703]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Release
+[2023.05.28-15.22.16:785][703]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Ibu Jari : 1.31549
+[2023.05.28-15.22.16:786][703]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Jari Telunjuk : 1.745087
+[2023.05.28-15.22.16:786][703]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Jarak Rata-Rata : 1.530288
+[2023.05.28-15.22.16:786][703]LogBlueprintUserMessages: [BP_HandRight_C_0] Server: Hand Error :3.060577
+[2023.05.28-15.22.24:099][953]LogViewport: Scene viewport resized to 1920x1080, mode Windowed.
+[2023.05.28-15.22.24:126][953]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2023.05.28-15.22.24:126][953]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.28-15.22.24:126][953]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_BoardGameMap
+[2023.05.28-15.22.24:180][953]LogSlate: Window 'Skripsi Preview [NetMode: Server]  (64-bit/SM5) OculusHMD OVRPlugin: 1.65.0' being destroyed
+[2023.05.28-15.22.24:219][953]LogWorld: UWorld::CleanupWorld for BoardGameMap, bSessionEnded=true, bCleanupResources=true
+[2023.05.28-15.22.24:221][953]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.28-15.22.24:226][953]LogNet: World NetDriver shutdown IpNetDriver_21 [GameNetDriver]
+[2023.05.28-15.22.24:226][953]LogNet: DestroyNamedNetDriver IpNetDriver_21 [GameNetDriver]
+[2023.05.28-15.22.24:226][953]LogExit: GameNetDriver IpNetDriver_21 shut down
+[2023.05.28-15.22.24:226][953]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.28-15.22.24:232][953]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.28-15.22.24:259][953]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.05.28-15.22.24:259][953]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=49
+[2023.05.28-15.22.24:260][953]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=49
+[2023.05.28-15.22.24:266][953]LogSlate: Slate User Unregistered.  User Index 8
+[2023.05.28-15.22.24:266][953]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.05.28-15.22.24:269][953]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.05.28-15.22.24:305][954]LogPlayLevel: Display: Destroying online subsystem :Context_70
+[2023.05.28-15.22.24:312][954]LogEngine: Changing dynamic resolution state.
+[2023.05.28-15.22.47:913][428]LogViewport: Scene viewport resized to 1178x537, mode Windowed.
+[2023.05.28-15.22.48:759][428]LogViewport: Scene viewport resized to 642x571, mode Windowed.
+[2023.05.28-15.31.55:789][  8]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.05.28-15.31.55:792][  8]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map/BoardGameMap' took 0.036
+[2023.05.28-15.31.55:793][  8]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprint/BP_HandRight] ([2] browsable assets)...
+[2023.05.28-15.31.55:793][  8]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/BP_HandRight]
+[2023.05.28-15.31.55:802][  8]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint/BP_HandRight_Auto4
+[2023.05.28-15.31.55:803][  8]LogSavePackage: Moving '../../../../../../Users/PC/Documents/Unreal Projects/Skripsi/Saved/BP_HandRight_Auto41787C86D441E18CB9E8123851B9FBA10.tmp' to '../../../../../../Users/PC/Documents/Unreal Projects/Skripsi/Saved/Autosaves/Game/Blueprint/BP_HandRight_Auto4.uasset'
+[2023.05.28-15.31.55:803][  8]LogFileHelpers: Auto-saving content packages took 0.011
+[2023.05.28-15.35.08:611][855]LogViewport: Scene viewport resized to 644x571, mode Windowed.
+[2023.05.28-15.35.08:660][855]LogViewport: Scene viewport resized to 667x571, mode Windowed.
+[2023.05.28-15.35.08:710][855]LogViewport: Scene viewport resized to 698x571, mode Windowed.
+[2023.05.28-15.35.08:810][855]LogViewport: Scene viewport resized to 745x571, mode Windowed.
+[2023.05.28-15.35.09:036][855]LogViewport: Scene viewport resized to 748x571, mode Windowed.
+[2023.05.28-15.35.09:243][855]LogViewport: Scene viewport resized to 752x571, mode Windowed.
+[2023.05.28-15.35.09:362][855]LogViewport: Scene viewport resized to 947x571, mode Windowed.
+[2023.05.28-15.35.09:543][855]LogViewport: Scene viewport resized to 955x571, mode Windowed.
+[2023.05.28-15.35.09:985][855]LogViewport: Scene viewport resized to 950x571, mode Windowed.
+[2023.05.28-15.35.10:334][855]LogViewport: Scene viewport resized to 646x571, mode Windowed.
+[2023.05.28-15.35.10:722][855]LogViewport: Scene viewport resized to 603x571, mode Windowed.
+[2023.05.28-15.35.10:793][855]LogViewport: Scene viewport resized to 576x571, mode Windowed.
+[2023.05.28-15.35.10:876][855]LogViewport: Scene viewport resized to 577x571, mode Windowed.
+[2023.05.28-15.35.10:942][855]LogViewport: Scene viewport resized to 579x571, mode Windowed.
+[2023.05.28-15.35.11:010][855]LogViewport: Scene viewport resized to 582x571, mode Windowed.
+[2023.05.28-15.35.11:077][855]LogViewport: Scene viewport resized to 590x571, mode Windowed.
+[2023.05.28-15.35.11:142][855]LogViewport: Scene viewport resized to 598x571, mode Windowed.
+[2023.05.28-15.35.11:210][855]LogViewport: Scene viewport resized to 602x571, mode Windowed.
+[2023.05.28-15.35.11:278][855]LogViewport: Scene viewport resized to 609x571, mode Windowed.
+[2023.05.28-15.35.11:360][855]LogViewport: Scene viewport resized to 625x571, mode Windowed.
+[2023.05.28-15.35.11:427][855]LogViewport: Scene viewport resized to 635x571, mode Windowed.
+[2023.05.28-15.35.11:576][855]LogViewport: Scene viewport resized to 638x571, mode Windowed.
+[2023.05.28-15.35.46:419][281]LogViewport: Scene viewport resized to 1176x571, mode Windowed.
+[2023.05.28-15.35.54:725][254]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/Game/BP_KartuPedagang.BP_KartuPedagang
+[2023.05.28-15.35.54:725][254]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.28-15.36.31:566][487]BlueprintLog: New page: Compile BP_KartuPedagang
+[2023.05.28-15.36.31:706][487]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.05.28-15.36.32:325][535]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Game/BP_KartuPedagang" FILE="../../../../../../Users/PC/Documents/Unreal Projects/Skripsi/Content/Blueprint/Game/BP_KartuPedagang.uasset" SILENT=true
+[2023.05.28-15.36.32:344][535]LogSavePackage: Moving output files for package: /Game/Blueprint/Game/BP_KartuPedagang
+[2023.05.28-15.36.32:344][535]LogSavePackage: Moving '../../../../../../Users/PC/Documents/Unreal Projects/Skripsi/Saved/BP_KartuPedagangEA38BEC34C5788E73BBDF1B4EF61D7FF.tmp' to '../../../../../../Users/PC/Documents/Unreal Projects/Skripsi/Content/Blueprint/Game/BP_KartuPedagang.uasset'
+[2023.05.28-15.36.32:357][535]AssetCheck: New page: Asset Save: BP_KartuPedagang
+[2023.05.28-15.36.32:357][535]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/Game/BP_KartuPedagang.BP_KartuPedagang
