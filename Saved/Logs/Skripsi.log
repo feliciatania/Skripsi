@@ -9868,3 +9868,10 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.05.28-15.36.32:344][535]LogSavePackage: Moving '../../../../../../Users/PC/Documents/Unreal Projects/Skripsi/Saved/BP_KartuPedagangEA38BEC34C5788E73BBDF1B4EF61D7FF.tmp' to '../../../../../../Users/PC/Documents/Unreal Projects/Skripsi/Content/Blueprint/Game/BP_KartuPedagang.uasset'
 [2023.05.28-15.36.32:357][535]AssetCheck: New page: Asset Save: BP_KartuPedagang
 [2023.05.28-15.36.32:357][535]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/Game/BP_KartuPedagang.BP_KartuPedagang
+[2023.05.28-15.37.25:107][178]BlueprintLog: New page: Compile BP_HandLeft
+[2023.05.28-15.37.25:514][178]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.05.28-15.37.25:963][179]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/BP_HandLeft" FILE="../../../../../../Users/PC/Documents/Unreal Projects/Skripsi/Content/Blueprint/BP_HandLeft.uasset" SILENT=true
+[2023.05.28-15.37.26:386][179]LogSavePackage: Moving output files for package: /Game/Blueprint/BP_HandLeft
+[2023.05.28-15.37.26:386][179]LogSavePackage: Moving '../../../../../../Users/PC/Documents/Unreal Projects/Skripsi/Saved/BP_HandLeft37DA06AE435C2E5EDEAEC2B85975C71B.tmp' to '../../../../../../Users/PC/Documents/Unreal Projects/Skripsi/Content/Blueprint/BP_HandLeft.uasset'
+[2023.05.28-15.37.26:402][179]AssetCheck: New page: Asset Save: BP_HandLeft
+[2023.05.28-15.37.26:402][179]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/BP_HandLeft.BP_HandLeft
