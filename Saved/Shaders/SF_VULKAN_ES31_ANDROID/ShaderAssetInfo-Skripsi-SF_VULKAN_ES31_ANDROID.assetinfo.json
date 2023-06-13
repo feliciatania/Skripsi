@@ -73,8 +73,11 @@
 			"ShaderMapHash": "DAC567281CDED85CC4E4DCE31AA77CCFC2111EA5",
 			"Assets": [
 				"/Engine/VREditor/TransformGizmo/Xray",
-				"/Game/Asset/FBX/Material/base",
-				"/Game/Asset/FBX/Material/M_DarkBrown"
+				"/Game/Asset/FBX/Material/M_SquareDeckPermata",
+				"/Game/Asset/FBX/Material/M_DarkBrown",
+				"/Game/Asset/FBX/Material/M_BaseDeckPermata",
+				"/Game/Asset/FBX/Material/Material",
+				"/Game/Asset/FBX/Material/base"
 			]
 		},
 		{
@@ -96,9 +99,61 @@
 			]
 		},
 		{
-			"ShaderMapHash": "9569CB9336531FAA61C6D3DC11C6D1B25104B4BF",
+			"ShaderMapHash": "3ABEBAC5BD79E99C7EA7B310A41CA40756682326",
 			"Assets": [
-				"/Engine/EngineSky/M_SimpleSkyDome"
+				"/Game/VRTemplate/Materials/M_VRCursor"
+			]
+		},
+		{
+			"ShaderMapHash": "259F9BBFCB47BC15CCF02A333260325FBFF832F3",
+			"Assets": [
+				"/Game/VRTemplate/Materials/M_Projectile"
+			]
+		},
+		{
+			"ShaderMapHash": "DE98857FE1A05915E4842F205DB3E130C28B0ED7",
+			"Assets": [
+				"/Game/VRTemplate/Materials/DefaultRibbonMaterial_NoGradient"
+			]
+		},
+		{
+			"ShaderMapHash": "AD5F0F01EE044496042D0CC1797466ACD9896B84",
+			"Assets": [
+				"/Game/VirtualReality/Materials/M_BaseMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "DA9DC5D4450BE6EA982410E5074ACD98852D3348",
+			"Assets": [
+				"/Game/Hands/Models/HandMat",
+				"/Game/Asset/FBX/Material/M_Base",
+				"/Game/Asset/Avatar/M_AvatarSkin",
+				"/Game/Asset/Avatar/M_AvatarGlass",
+				"/Game/Asset/Avatar/M_AvatarBlack"
+			]
+		},
+		{
+			"ShaderMapHash": "713E6567DD3D5F1807EAC119E734ED0BFB149AE5",
+			"Assets": [
+				"/Game/Blueprint/MainMenu/M_Hand"
+			]
+		},
+		{
+			"ShaderMapHash": "D6AB282FDE8B930D16F2965E57CD3E2F28797438",
+			"Assets": [
+				"/Game/Asset/LevelPrototyping/Materials/M_Solid"
+			]
+		},
+		{
+			"ShaderMapHash": "3A8EFA04D8936846750AAA8DA7121C09EFDE69AD",
+			"Assets": [
+				"/Game/Blueprint/MainMenu/M_HandSystem"
+			]
+		},
+		{
+			"ShaderMapHash": "62E3BC80E9F8DE53C019DC83BDEC3439204D6EED",
+			"Assets": [
+				"/Game/Asset/Furniture/City_of_Brass_Props/Materials/base_material"
 			]
 		},
 		{
@@ -109,30 +164,15 @@
 			]
 		},
 		{
-			"ShaderMapHash": "1B0F4AE5E97A4930D98E255D5A3692C41D6023D6",
+			"ShaderMapHash": "9569CB9336531FAA61C6D3DC11C6D1B25104B4BF",
 			"Assets": [
-				"/Engine/MapTemplates/Materials/BasicAsset01"
+				"/Engine/EngineSky/M_SimpleSkyDome"
 			]
 		},
 		{
-			"ShaderMapHash": "713E6567DD3D5F1807EAC119E734ED0BFB149AE5",
+			"ShaderMapHash": "3BD70B84465A0FE8964323282EEA27B4D004CA3C",
 			"Assets": [
-				"/Game/Blueprint/MainMenu/M_Hand"
-			]
-		},
-		{
-			"ShaderMapHash": "1B742731892EB1E8E02DE608917F64EFF6860828",
-			"Assets": [
-				"/Game/Blueprint/MainMenu/M_HandSystem"
-			]
-		},
-		{
-			"ShaderMapHash": "DA9DC5D4450BE6EA982410E5074ACD98852D3348",
-			"Assets": [
-				"/Game/Asset/Avatar/M_AvatarBlack",
-				"/Game/Asset/Avatar/M_AvatarGlass",
-				"/Game/Asset/Avatar/M_AvatarSkin",
-				"/Game/Hands/Models/HandMat"
+				"/Engine/BasicShapes/BasicShapeMaterial"
 			]
 		},
 		{
@@ -170,34 +210,35 @@
 			"ShaderMapHash": "EC44C0C57F6A12F9E118E19920EB0C076996AFB5",
 			"Assets": [
 				"/OculusVR/Materials/TouchForQuestRiftSControllerMaterial",
-				"/Game/Asset/FBX/Material/M_Pedagang10",
-				"/Game/Asset/FBX/Material/M_Pedagang11",
-				"/Game/Asset/FBX/Material/M_Pedagang12",
-				"/Game/Asset/FBX/Material/M_Pedagang13",
-				"/Game/Asset/FBX/Material/M_Pedagang14",
-				"/Game/Asset/FBX/Material/M_Pedagang15",
-				"/Game/Asset/FBX/Material/M_Pedagang16",
-				"/Game/Asset/FBX/Material/M_Pedagang17",
-				"/Game/Asset/FBX/Material/M_Pedagang18",
-				"/Game/Asset/FBX/Material/M_Pedagang19",
-				"/Game/Asset/FBX/Material/M_Pedagang20",
-				"/Game/Asset/FBX/Material/M_Pedagang3",
-				"/Game/Asset/FBX/Material/M_Pedagang4",
-				"/Game/Asset/FBX/Material/M_Pedagang5",
-				"/Game/Asset/FBX/Material/M_Pedagang6",
-				"/Game/Asset/FBX/Material/M_Pedagang8",
-				"/Game/Asset/FBX/Material/M_Pedagang9",
-				"/Game/Asset/FBX/Material/M_Poin1",
-				"/Game/Asset/FBX/Material/M_Poin2",
-				"/Game/Asset/FBX/Material/M_Poin3",
-				"/Game/Asset/FBX/Material/M_Poin4",
-				"/Game/Asset/FBX/Material/M_Poin5",
-				"/Game/Asset/FBX/Material/M_Poin6",
-				"/Game/Asset/FBX/Material/M_Poin7",
-				"/Game/Asset/FBX/Material/M_Poin8",
+				"/Game/Asset/Megascans/3D_Assets/Wooden_Bowl_uhckbgiva/T_Wooden_Bowl_uhckbgiva_1K_D_Mat",
 				"/Game/Asset/FBX/Material/M_Poin9",
-				"/Game/Asset/FBX/Material/Wood_Deck_Material",
-				"/Game/Asset/Megascans/3D_Assets/Wooden_Bowl_uhckbgiva/T_Wooden_Bowl_uhckbgiva_1K_D_Mat"
+				"/Game/Asset/FBX/Material/M_Poin8",
+				"/Game/Asset/FBX/Material/M_Poin7",
+				"/Game/Asset/FBX/Material/M_Poin6",
+				"/Game/Asset/FBX/Material/M_Poin5",
+				"/Game/Asset/FBX/Material/M_Poin4",
+				"/Game/Asset/FBX/Material/M_Poin3",
+				"/Game/Asset/FBX/Material/M_Poin2",
+				"/Game/Asset/FBX/Material/M_Poin10",
+				"/Game/Asset/FBX/Material/M_Poin1",
+				"/Game/Asset/FBX/Material/M_Pedagang9",
+				"/Game/Asset/FBX/Material/M_Pedagang8",
+				"/Game/Asset/FBX/Material/M_Pedagang6",
+				"/Game/Asset/FBX/Material/M_Pedagang5",
+				"/Game/Asset/FBX/Material/M_Pedagang4",
+				"/Game/Asset/FBX/Material/M_Pedagang3",
+				"/Game/Asset/FBX/Material/M_Pedagang20",
+				"/Game/Asset/FBX/Material/M_Pedagang19",
+				"/Game/Asset/FBX/Material/M_Pedagang18",
+				"/Game/Asset/FBX/Material/M_Pedagang17",
+				"/Game/Asset/FBX/Material/M_Pedagang16",
+				"/Game/Asset/FBX/Material/M_Pedagang15",
+				"/Game/Asset/FBX/Material/M_Pedagang14",
+				"/Game/Asset/FBX/Material/M_Pedagang13",
+				"/Game/Asset/FBX/Material/M_Pedagang12",
+				"/Game/Asset/FBX/Material/M_Pedagang11",
+				"/Game/Asset/FBX/Material/M_Pedagang10",
+				"/Game/Asset/FBX/Material/Wood_Deck_Material"
 			]
 		},
 		{
@@ -213,6 +254,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "8D04A934D23472234ABACA9D898B96A66F669CE6",
+			"Assets": [
+				"/Paper2D/DefaultSpriteMaterial"
+			]
+		},
+		{
 			"ShaderMapHash": "6332CCEF1B95ED718CEBAB6FA68569F192DB8A31",
 			"Assets": [
 				"/Engine/EngineMaterials/PhAT_JointLimitMaterial"
@@ -222,12 +269,6 @@
 			"ShaderMapHash": "B5B3887C06B5D236FFB7C2AD9492B1F2B9CAC17E",
 			"Assets": [
 				"/ControlRig/M_Manip"
-			]
-		},
-		{
-			"ShaderMapHash": "8D04A934D23472234ABACA9D898B96A66F669CE6",
-			"Assets": [
-				"/Paper2D/DefaultSpriteMaterial"
 			]
 		},
 		{
@@ -304,45 +345,169 @@
 			]
 		},
 		{
-			"ShaderMapHash": "A38FBF5132C006EC8034005E28ECDD585090D6F9",
+			"ShaderMapHash": "345CBB69F4B811CF7317AB40A1D7E8E3EB861E8B",
 			"Assets": [
-				"/Engine/EngineSky/M_Sky_Panning_Clouds2"
+				"/Game/Asset/FBX/Material/M_Pedagang7",
+				"/Game/Asset/FBX/Material/M_Pedagang2",
+				"/Game/Asset/FBX/Material/M_Pedagang1",
+				"/Game/Asset/FBX/Material/poin_5_Mat",
+				"/Game/Asset/FBX/Material/poin_4_Mat",
+				"/Game/Asset/FBX/Material/poin_3_Mat",
+				"/Game/Asset/FBX/Material/poin_2_Mat",
+				"/Game/Asset/FBX/Material/poin_1_Mat",
+				"/Game/Asset/FBX/Material/M_BackPoin",
+				"/Game/Asset/FBX/Material/M_BackPedagang"
 			]
 		},
 		{
-			"ShaderMapHash": "4BE504CD2142C64666751128F59F42A3C590F6A5",
+			"ShaderMapHash": "AE29CC568D641D80AC43BBFA20FEAFDC210B6802",
 			"Assets": [
-				"/Game/AlchemistsHouse/Assets/Materials/Candles_candlesticks"
+				"/Game/Asset/FBX/Material/M_Ruby",
+				"/Game/Asset/FBX/Material/M_Emerald",
+				"/Game/Asset/FBX/Material/M_Sapphire"
+			]
+		},
+		{
+			"ShaderMapHash": "ABF206734AEA64B641FF87A447344DCC722B4BDE",
+			"Assets": [
+				"/Game/AlchemistsHouse/Assets/Materials/Default_Mat"
+			]
+		},
+		{
+			"ShaderMapHash": "A6864998A74EDDD5EB185CC41F3A9B6805599785",
+			"Assets": [
+				"/Game/AlchemistsHouse/Assets/Materials/Window_3_glass"
+			]
+		},
+		{
+			"ShaderMapHash": "A16292BA08E227FEB234D7E449437AC15086F67D",
+			"Assets": [
+				"/Game/AlchemistsHouse/Assets/Materials/Window_2_glass"
+			]
+		},
+		{
+			"ShaderMapHash": "4E4DBEEE7BDEA159F4152587BBA8A20B85D6FA1E",
+			"Assets": [
+				"/Game/AlchemistsHouse/Assets/Materials/Window_1_glass"
 			]
 		},
 		{
 			"ShaderMapHash": "11261009CE30A856AF8DC9CBE07D3B696E2DD264",
 			"Assets": [
-				"/Game/AlchemistsHouse/Assets/Materials/Doors",
-				"/Game/AlchemistsHouse/Assets/Materials/Floor_parquet",
-				"/Game/AlchemistsHouse/Assets/Materials/Wall_round_0",
-				"/Game/AlchemistsHouse/Assets/Materials/Wall_round_3",
-				"/Game/AlchemistsHouse/Assets/Materials/Wall_round_4",
 				"/Game/AlchemistsHouse/Assets/Materials/Windows",
-				"/Game/AlchemistsHouse/Assets/Materials/Floor_wooden_texture_Mat",
-				"/Game/AlchemistsHouse/Assets/Materials/Book_1",
-				"/Game/AlchemistsHouse/Assets/Materials/Book_2",
-				"/Game/AlchemistsHouse/Assets/Materials/Book_3",
-				"/Game/AlchemistsHouse/Assets/Materials/Book_4",
-				"/Game/AlchemistsHouse/Assets/Materials/Book_5",
-				"/Game/AlchemistsHouse/Assets/Materials/Book_6",
-				"/Game/AlchemistsHouse/Assets/Materials/Book_closed",
-				"/Game/AlchemistsHouse/Assets/Materials/Book_opened",
-				"/Game/AlchemistsHouse/Assets/Materials/Bookcase",
-				"/Game/AlchemistsHouse/Assets/Materials/Celling_2",
-				"/Game/AlchemistsHouse/Assets/Materials/Fireplace",
-				"/Game/AlchemistsHouse/Assets/Materials/Pillars",
-				"/Game/AlchemistsHouse/Assets/Materials/Stand",
-				"/Game/AlchemistsHouse/Assets/Materials/Vases",
 				"/Game/AlchemistsHouse/Assets/Materials/Wall_round_2",
-				"/Game/AlchemistsHouse/Assets/Materials/Armchair",
+				"/Game/AlchemistsHouse/Assets/Materials/Wall_round_4",
+				"/Game/AlchemistsHouse/Assets/Materials/Wall_round_3",
+				"/Game/AlchemistsHouse/Assets/Materials/Wall_round_1",
+				"/Game/AlchemistsHouse/Assets/Materials/Wall_round_0",
+				"/Game/AlchemistsHouse/Assets/Materials/Wall_1_7",
+				"/Game/AlchemistsHouse/Assets/Materials/Wall_1_5",
+				"/Game/AlchemistsHouse/Assets/Materials/Wall_1_4",
+				"/Game/AlchemistsHouse/Assets/Materials/Wall_1_3",
+				"/Game/AlchemistsHouse/Assets/Materials/Wall_1_2",
+				"/Game/AlchemistsHouse/Assets/Materials/Wall_1_1",
 				"/Game/AlchemistsHouse/Assets/Materials/Wall_1_0",
-				"/Game/AlchemistsHouse/Assets/Materials/Table"
+				"/Game/AlchemistsHouse/Assets/Materials/Vases",
+				"/Game/AlchemistsHouse/Assets/Materials/Table_round",
+				"/Game/AlchemistsHouse/Assets/Materials/Table",
+				"/Game/AlchemistsHouse/Assets/Materials/Stand",
+				"/Game/AlchemistsHouse/Assets/Materials/Stairs_round",
+				"/Game/AlchemistsHouse/Assets/Materials/Stairs",
+				"/Game/AlchemistsHouse/Assets/Materials/Shelf",
+				"/Game/AlchemistsHouse/Assets/Textures/Pumpkin_Texture_Mat",
+				"/Game/AlchemistsHouse/Assets/Materials/Pillars",
+				"/Game/AlchemistsHouse/Assets/Materials/Pie",
+				"/Game/AlchemistsHouse/Assets/Materials/Lab_stuff_2",
+				"/Game/AlchemistsHouse/Assets/Materials/Lab_stuff_1",
+				"/Game/AlchemistsHouse/Assets/Materials/Ham",
+				"/Game/AlchemistsHouse/Assets/Materials/Garlic",
+				"/Game/AlchemistsHouse/Assets/Materials/Floor_wooden_texture_Mat",
+				"/Game/AlchemistsHouse/Assets/Materials/Floor_parquet",
+				"/Game/AlchemistsHouse/Assets/Materials/Fireplace",
+				"/Game/AlchemistsHouse/Assets/Materials/Doors",
+				"/Game/AlchemistsHouse/Assets/Materials/Cup",
+				"/Game/AlchemistsHouse/Assets/Materials/Chicken",
+				"/Game/AlchemistsHouse/Assets/Materials/Chest",
+				"/Game/AlchemistsHouse/Assets/Materials/Cheese",
+				"/Game/AlchemistsHouse/Assets/Materials/Chair",
+				"/Game/AlchemistsHouse/Assets/Materials/Celling_2",
+				"/Game/AlchemistsHouse/Assets/Materials/Celling_1",
+				"/Game/AlchemistsHouse/Assets/Materials/Book_opened",
+				"/Game/AlchemistsHouse/Assets/Materials/Book_closed",
+				"/Game/AlchemistsHouse/Assets/Materials/Book_6",
+				"/Game/AlchemistsHouse/Assets/Materials/Book_5",
+				"/Game/AlchemistsHouse/Assets/Materials/Book_4",
+				"/Game/AlchemistsHouse/Assets/Materials/Book_3",
+				"/Game/AlchemistsHouse/Assets/Materials/Book_2",
+				"/Game/AlchemistsHouse/Assets/Materials/Book_1",
+				"/Game/AlchemistsHouse/Assets/Materials/Bookcase",
+				"/Game/AlchemistsHouse/Assets/Materials/Board_2",
+				"/Game/AlchemistsHouse/Assets/Materials/Board",
+				"/Game/AlchemistsHouse/Assets/Materials/Blinds",
+				"/Game/AlchemistsHouse/Assets/Materials/Bed",
+				"/Game/AlchemistsHouse/Assets/Materials/Balcony",
+				"/Game/AlchemistsHouse/Assets/Materials/Armchair",
+				"/Game/AlchemistsHouse/Assets/Materials/Ambry",
+				"/Game/AlchemistsHouse/Assets/Materials/Alchemist_table"
+			]
+		},
+		{
+			"ShaderMapHash": "4C92AFBEF52D72BFDBABF93C330C9C149BB9146B",
+			"Assets": [
+				"/Game/AlchemistsHouse/Assets/Materials/Tablecloth",
+				"/Game/AlchemistsHouse/Assets/Materials/Tablecloth_blue"
+			]
+		},
+		{
+			"ShaderMapHash": "ECD6BAD101E89AD7BB2A8FB905924E7423807BF2",
+			"Assets": [
+				"/Game/AlchemistsHouse/Assets/Materials/Scrolls",
+				"/Game/AlchemistsHouse/Assets/Materials/Flag"
+			]
+		},
+		{
+			"ShaderMapHash": "A04C09D3669EC954DE7A3382E27458AF27905A9E",
+			"Assets": [
+				"/Game/AlchemistsHouse/Assets/Materials/Potions",
+				"/Game/AlchemistsHouse/Assets/Materials/carrot",
+				"/Game/AlchemistsHouse/Assets/Materials/Carpet",
+				"/Game/AlchemistsHouse/Assets/Materials/Carpet_long_2",
+				"/Game/AlchemistsHouse/Assets/Materials/Carpet_long",
+				"/Game/AlchemistsHouse/Assets/Materials/Carpet_2",
+				"/Game/AlchemistsHouse/Assets/Materials/Broccoli",
+				"/Game/AlchemistsHouse/Assets/Materials/Bread"
+			]
+		},
+		{
+			"ShaderMapHash": "407D755F3B0B22A228C318D6E4B063DEACA3B51C",
+			"Assets": [
+				"/Game/AlchemistsHouse/Assets/Materials/Plate_3"
+			]
+		},
+		{
+			"ShaderMapHash": "9AE8C31A7CEE748697F2995A25952A88A16B5C79",
+			"Assets": [
+				"/Game/AlchemistsHouse/Assets/Materials/Plate_2",
+				"/Game/AlchemistsHouse/Assets/Materials/Plate_1"
+			]
+		},
+		{
+			"ShaderMapHash": "4BE504CD2142C64666751128F59F42A3C590F6A5",
+			"Assets": [
+				"/Game/AlchemistsHouse/Assets/Materials/Plant",
+				"/Game/AlchemistsHouse/Assets/Materials/Candles_candlesticks"
+			]
+		},
+		{
+			"ShaderMapHash": "8A5916B4EA9DAAA12BB41B9D530DE822BFF372BC",
+			"Assets": [
+				"/Game/AlchemistsHouse/Assets/Materials/Light_Shaft_Mat3"
+			]
+		},
+		{
+			"ShaderMapHash": "899B2E796D5DB465F6BF7AF86B55BF907F462FEF",
+			"Assets": [
+				"/Game/AlchemistsHouse/Assets/Materials/Light_Shaft_Mat2"
 			]
 		},
 		{
@@ -364,9 +529,9 @@
 			]
 		},
 		{
-			"ShaderMapHash": "A6864998A74EDDD5EB185CC41F3A9B6805599785",
+			"ShaderMapHash": "590175CF26B611EF31AC54F7059F7749E2BD4EDE",
 			"Assets": [
-				"/Game/AlchemistsHouse/Assets/Materials/Window_3_glass"
+				"/Game/AlchemistsHouse/Assets/Materials/Lighter"
 			]
 		},
 		{
@@ -376,27 +541,9 @@
 			]
 		},
 		{
-			"ShaderMapHash": "345CBB69F4B811CF7317AB40A1D7E8E3EB861E8B",
+			"ShaderMapHash": "C96D9521C4B9005801DBDBA8183C137D98049E63",
 			"Assets": [
-				"/Game/Asset/FBX/Material/M_Pedagang2",
-				"/Game/Asset/FBX/Material/M_Pedagang1",
-				"/Game/Asset/FBX/Material/M_Pedagang7",
-				"/Game/Asset/FBX/Material/M_BackPoin",
-				"/Game/Asset/FBX/Material/M_BackPedagang"
-			]
-		},
-		{
-			"ShaderMapHash": "A04C09D3669EC954DE7A3382E27458AF27905A9E",
-			"Assets": [
-				"/Game/AlchemistsHouse/Assets/Materials/Carpet_2",
-				"/Game/AlchemistsHouse/Assets/Materials/Potions",
-				"/Game/AlchemistsHouse/Assets/Materials/Carpet_long_2"
-			]
-		},
-		{
-			"ShaderMapHash": "ECD6BAD101E89AD7BB2A8FB905924E7423807BF2",
-			"Assets": [
-				"/Game/AlchemistsHouse/Assets/Materials/Scrolls"
+				"/Game/AlchemistsHouse/Assets/Materials/Apple"
 			]
 		},
 		{
@@ -406,11 +553,47 @@
 			]
 		},
 		{
-			"ShaderMapHash": "AE29CC568D641D80AC43BBFA20FEAFDC210B6802",
+			"ShaderMapHash": "7EE5949C428C9A14B3107A8DB52FF57E4454835F",
 			"Assets": [
-				"/Game/Asset/FBX/Material/M_Sapphire",
-				"/Game/Asset/FBX/Material/M_Emerald",
-				"/Game/Asset/FBX/Material/M_Ruby"
+				"/Game/AlchemistsHouse/Assets/Particles/Dust_mat"
+			]
+		},
+		{
+			"ShaderMapHash": "A38FBF5132C006EC8034005E28ECDD585090D6F9",
+			"Assets": [
+				"/Engine/EngineSky/M_Sky_Panning_Clouds2"
+			]
+		},
+		{
+			"ShaderMapHash": "305C5A4420EF217BABF2D43439B12A61A8CE6EFE",
+			"Assets": [
+				"/Game/Asset/MSPresets/M_MS_Imperfection_Material_VT/M_MS_Imperfection_Material_Var_VT",
+				"/Game/Asset/MSPresets/M_MS_Imperfection_Material_Var/M_MS_Imperfection_Material_Var",
+				"/Game/Asset/MSPresets/M_MS_Imperfection_Material/M_MS_Imperfection_Material_Var"
+			]
+		},
+		{
+			"ShaderMapHash": "2ED4DB1799A319A701D43C4D53C1EB9ACB862006",
+			"Assets": [
+				"/Game/Asset/MSPresets/M_MS_Default_Material_VT/M_MS_Default_Material_VT"
+			]
+		},
+		{
+			"ShaderMapHash": "A31E75813FDBADCC5F620ED5D5F7625462A23F0C",
+			"Assets": [
+				"/Game/Asset/MSPresets/M_MS_Default_Material/M_MS_Default_Material"
+			]
+		},
+		{
+			"ShaderMapHash": "22A4A0889773DB021428FF6F46956BDB9BE958E4",
+			"Assets": [
+				"/Engine/EditorMaterials/MatineeCam_mat"
+			]
+		},
+		{
+			"ShaderMapHash": "88998725E97B44D32279AF365C018DB5E8269BDB",
+			"Assets": [
+				"/Engine/VREditor/BasicMeshes/M_Floor_01"
 			]
 		},
 		{
@@ -466,9 +649,82 @@
 			]
 		},
 		{
+			"ShaderMapHash": "2A9BA9EB8278B412C0023586DD7C249CECCD89BA",
+			"Assets": [
+				"/Game/Asset/MSPresets/M_MS_Imperfection_Material_VT/M_MS_Imperfection_Material_VT",
+				"/Game/Asset/MSPresets/M_MS_Imperfection_Material/M_MS_Imperfection_Material"
+			]
+		},
+		{
+			"ShaderMapHash": "A01836E0DD353A164B2104E502B9AE153F3885DA",
+			"Assets": [
+				"/Game/Asset/MSPresets/M_MS_Foliage_Material/M_MS_Foliage_Material"
+			]
+		},
+		{
+			"ShaderMapHash": "0D2C9F21AC0AFC381DD065A0BF02FD945C590801",
+			"Assets": [
+				"/Game/Asset/MSPresets/M_MS_Billboard_Material/M_MS_Billboard_Material"
+			]
+		},
+		{
+			"ShaderMapHash": "EDC3257D1F8B548EB6BD95DEC2A6FA430F58CB5B",
+			"Assets": [
+				"/Game/VRTemplate/Materials/M_TeleportNoise"
+			]
+		},
+		{
+			"ShaderMapHash": "9B42F40820A8E85FEB6460CEB149BF96141735C6",
+			"Assets": [
+				"/Game/VRTemplate/Materials/M_TeleportCylinder"
+			]
+		},
+		{
 			"ShaderMapHash": "F829D702B1005559347C8788A7733ED6FD8F95DF",
 			"Assets": [
 				"/Game/VirtualReality/Materials/M_SplineArcMat"
+			]
+		},
+		{
+			"ShaderMapHash": "413FB0F3B60D254ECA9E3D75485A174C77A5C239",
+			"Assets": [
+				"/Game/VirtualReality/Materials/M_ArcEndpoint"
+			]
+		},
+		{
+			"ShaderMapHash": "2867077E4D6F70FCFB6B1C870ADC105D8A96F72B",
+			"Assets": [
+				"/Game/Asset/MSPresets/M_MS_Surface_Material_VT/M_MS_Surface_Material_VT"
+			]
+		},
+		{
+			"ShaderMapHash": "BB0250168CA7ECE216010612489DA2C6DF5BE649",
+			"Assets": [
+				"/Game/Asset/MSPresets/M_MS_Surface_Material/M_MS_Surface_Material"
+			]
+		},
+		{
+			"ShaderMapHash": "BEF00F30AF694BE1AF113A0C8E484A3A1636C422",
+			"Assets": [
+				"/Game/Asset/MSPresets/M_MS_Default_Fuzz_Material_VT/M_MS_Default_Fuzz_Material_VT"
+			]
+		},
+		{
+			"ShaderMapHash": "01FD98E7D8E87EBF15DFD42349E2F1C83E0F09AF",
+			"Assets": [
+				"/Game/Asset/MSPresets/M_MS_Default_Fuzz_Material/M_MS_Default_Fuzz_Material"
+			]
+		},
+		{
+			"ShaderMapHash": "076C838A0FA6D72DC08575618ADAFBC91DD3972A",
+			"Assets": [
+				"/Game/Asset/MSPresets/M_MS_Default_Transmission_Material_VT/M_MS_Default_Transmission_Material_VT"
+			]
+		},
+		{
+			"ShaderMapHash": "32F3760898C7BB3BF26D76111A94BBEB787B486C",
+			"Assets": [
+				"/Game/Asset/MSPresets/M_MS_Default_Transmission_Material/M_MS_Default_Transmission_Material"
 			]
 		},
 		{
@@ -481,6 +737,70 @@
 			"ShaderMapHash": "714B0ABB3B9628B5DC519567BC1CB627E90FB66F",
 			"Assets": [
 				"/Engine/EngineMaterials/Widget3DPassThrough_Opaque_OneSided"
+			]
+		},
+		{
+			"ShaderMapHash": "21515434A415C55576767D7EE83B3C842BE9E387",
+			"Assets": [
+				"/Game/Asset/LevelPrototyping/Materials/M_PrototypeGrid",
+				"/Game/Asset/LevelPrototyping/Materials/MI_PrototypeGrid_Gray_02"
+			]
+		},
+		{
+			"ShaderMapHash": "7D50C1CB2BDBBC94B67DD5B28B43F5383E02F751",
+			"Assets": [
+				"/Game/VRTemplate/Materials/M_GridRotation",
+				"/Game/VRTemplate/Materials/MI_Grid_Default"
+			]
+		},
+		{
+			"ShaderMapHash": "C4E6F3873E995219909FC4D0DEE077CC0DAE015D",
+			"Assets": [
+				"/Game/Asset/MSPresets/M_MS_SurfaceBlend_Material/M_MS_SurfaceBlend_Material"
+			]
+		},
+		{
+			"ShaderMapHash": "E0BE227F90546028A0560DD93C8986EA281422DB",
+			"Assets": [
+				"/Game/Asset/MSPresets/M_MS_Glass_Material/M_MS_Glass_Material",
+				"/Bridge/MSPresets/M_MS_Glass_Material/M_MS_Glass_Material"
+			]
+		},
+		{
+			"ShaderMapHash": "9FF870EB7B22CA6E7C9FEC39E909507D766AC065",
+			"Assets": [
+				"/Game/Asset/MSPresets/M_MS_ImperfectionDecal_Material_VT/M_MS_ImperfectionDecal_Material_VT",
+				"/Game/Asset/MSPresets/M_MS_ImperfectionDecal_Material/M_MS_ImperfectionDecal_Material"
+			]
+		},
+		{
+			"ShaderMapHash": "B95029B0F3E8F71A73C4C291AF661B1A8CD840AD",
+			"Assets": [
+				"/Game/Asset/MSPresets/M_MS_Decal_Material_VT/M_MS_Decal_Material_VT"
+			]
+		},
+		{
+			"ShaderMapHash": "D6BBD094EC3F3BBC828CE3D3067022430FF628C4",
+			"Assets": [
+				"/Game/Asset/MSPresets/M_MS_Decal_Material/M_MS_Decal_Material"
+			]
+		},
+		{
+			"ShaderMapHash": "026239DFD6691CD059E1B80FA4A02DF01431033B",
+			"Assets": [
+				"/Game/Asset/LevelPrototyping/Materials/MI_PrototypeGrid_TopDark"
+			]
+		},
+		{
+			"ShaderMapHash": "398F6F4E000B19D8551AD6AEF081BA20C7412BFF",
+			"Assets": [
+				"/Game/Asset/LevelPrototyping/Materials/MI_PrototypeGrid_Gray"
+			]
+		},
+		{
+			"ShaderMapHash": "2B3C562B699B6E24ADE7E54642C2C0ECA61FCE80",
+			"Assets": [
+				"/Game/VRTemplate/Materials/MI_Grid_Accent"
 			]
 		}
 	]
